@@ -37,9 +37,9 @@ public class MathDimensions {
                 int sideB = input.nextInt();
                 rectPerimeter(sideA, sideB); //calls to rectPerimeter method and outputs answer
             } else if (select == 2) {
-                System.out.println("Enter first dimension"); //prompt user for first side
+                System.out.println("Enter first dimension"); 
                 int sideA = input.nextInt();
-                System.out.println("Enter second dimension"); //prompt user for second side
+                System.out.println("Enter second dimension"); 
                 int sideB = input.nextInt();
                 rectArea(sideA, sideB); //calls to rectArea method and outputs answer
             } else if (select == 3) {
@@ -51,11 +51,11 @@ public class MathDimensions {
                 int sideC = input.nextInt();
                 rectVolume(sideA, sideB, sideC); //calls to rectVolume method and outputs answer
             } else if (select == 4) {
-                System.out.println("Enter first dimension"); //prompt user for first side
+                System.out.println("Enter first dimension"); 
                 int sideA = input.nextInt();
-                System.out.println("Enter second dimension"); //prompt user for second side
+                System.out.println("Enter second dimension");
                 int sideB = input.nextInt();
-                System.out.println("Enter third dimension"); //prompt user for third side
+                System.out.println("Enter third dimension"); 
                 int sideC = input.nextInt();
                 triPerimeter(sideA, sideB, sideC); //calls to triPerimeter method and outputs answer
             } else if (select == 5) {
